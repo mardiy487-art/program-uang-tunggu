@@ -162,10 +162,22 @@ function resetForm(){
 async function kirimData(){
 
     // VALIDASI AWAL
-    if(!sa.value || !nama.value || !nik.value || !alamat.value || !nominal.value){
-        showNotif("Semua field wajib diisi!", "error");
-        return;
-    }
+if(
+    !sa.value ||
+    !nama.value ||
+    !nik.value ||
+    !alamat.value ||
+    !nominal.value ||
+    !invoice.value
+){
+    Swal.fire({
+        icon: "warning",
+        title: "Data Belum Lengkap",
+        text: "Semua field wajib diisi!"
+    });
+
+    return;
+}
 
     // =========================
     // 🔥 TAMBAHKAN DI SINI
