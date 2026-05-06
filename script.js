@@ -680,3 +680,22 @@ function confirmClear(){
         clearCanvas();
     }
 }
+function confirmKirim(){
+
+    Swal.fire({
+        title: "Apakah Data Sudah Benar?",
+        text: "Pastikan seluruh data yang diisi sudah sesuai.",
+        icon: "question",
+        showCancelButton: true,
+        confirmButtonColor: "#27ae60",
+        cancelButtonColor: "#6c757d",
+        confirmButtonText: "Ya, Kirim",
+        cancelButtonText: "Periksa Lagi"
+    }).then((result) => {
+
+        if(result.isConfirmed){
+            kirimData();
+        }
+
+    });
+}
