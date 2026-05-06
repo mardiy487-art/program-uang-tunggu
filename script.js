@@ -1,5 +1,5 @@
 let allData = [];
-const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbz-L7qkCv7HzSzFBxOpxy3KDwAjaWg-KO6KXUU9g1BD_s8tg2h7sHPVuLjetljmeRQO/exec";
+const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbxsF8-oM11o4BbyqAqkK2MnUWdMW0lhb52jATkwQk0DnX4U-UmbTahkmEHbZR8rpC7DnQ/exec";
 
 // =====================
 // DOM ELEMENT
