@@ -44,7 +44,6 @@ function resizeCanvas() {
     canvas.height = canvas.offsetHeight;
 }
 window.addEventListener("load", resizeCanvas);
-window.addEventListener("resize", resizeCanvas);
 
 // mouse
 canvas.addEventListener("mousedown", startDraw);
